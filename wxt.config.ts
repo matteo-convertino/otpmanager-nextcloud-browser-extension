@@ -10,7 +10,7 @@ export default defineConfig({
   manifest: {
     name: 'Nextcloud OTP Manager',
     short_name: 'OTP Manager',
-    description: 'Access your OTP Manager accounts from your Nextcloud server directly in the browser.',
+    description: 'Official Nextcloud OTP Manager browser extension',
     version: '1.0.0',
     permissions: ['storage', 'clipboardWrite'],
     host_permissions: ['https://*/*'],

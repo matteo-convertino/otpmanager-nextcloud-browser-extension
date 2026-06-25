@@ -1,6 +1,6 @@
 {
   "name": "otpmanager-nextcloud-browser-extension",
-  "description": "Official browser extension for accessing OTP Manager accounts from a Nextcloud server.",
+  "description": "Official Nextcloud OTP Manager browser extension",
   "private": true,
   "version": "0.0.0",
   "type": "module",

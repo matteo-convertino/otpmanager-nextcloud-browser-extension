@@ -27,8 +27,8 @@ export function AccountCard({account}: { account: AccountDatatableResponseDto })
             <Stack p={"sm"}>
                 <Group justify="space-between" align="start">
                     <Box style={{minWidth: 0, flex: 1}}>
-                        <Text fw={700} truncate>{account.name}</Text>
-                        {account.issuer && <Text size="xs" c="dimmed" truncate>{account.issuer}</Text>}
+                        <Text fw={700} truncate>{account.issuer !== "" ? account.issuer : account.name}</Text>
+                        <Text size="xs" c="dimmed" truncate>{account.issuer !== "" ? account.name : ''}</Text>
                     </Box>
 
                     <Group gap="xs" wrap="nowrap">
