@@ -19,7 +19,10 @@ export default defineConfig({
     },
     browser_specific_settings: {
       gecko: {
-        id: 'otpmanager-nextcloud-browser-extension@convertino.cloud'
+        id: 'otpmanager-nextcloud-browser-extension@convertino.cloud',
+        data_collection_permissions: {
+          required: ['authenticationInfo']
+        }
       }
     }
   },
