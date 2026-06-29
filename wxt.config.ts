@@ -11,7 +11,7 @@ export default defineConfig({
     name: 'Nextcloud OTP Manager',
     short_name: 'OTP Manager',
     description: 'Official Nextcloud OTP Manager browser extension',
-    version: '1.0.0',
+    version: '1.0.1',
     permissions: ['storage', 'clipboardWrite'],
     host_permissions: ['http://*/*', 'https://*/*'],
     action: {
