@@ -13,7 +13,7 @@ export default defineConfig({
     description: 'Official Nextcloud OTP Manager browser extension',
     version: '1.0.0',
     permissions: ['storage', 'clipboardWrite'],
-    host_permissions: ['https://*/*'],
+    host_permissions: ['http://*/*', 'https://*/*'],
     action: {
       default_title: 'OTP Manager'
     },
